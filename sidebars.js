@@ -1,6 +1,12 @@
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    "about:chirimen": ["about", "raspi", "microbit"],
+    チュートリアル: [
+      "tutorial/hellorealworld",
+      "tutorial/section1",
+      "tutorial/section2",
+      "tutorial/section3",
+      "tutorial/section4",
+    ],
   },
 };
