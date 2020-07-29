@@ -3,7 +3,7 @@ module.exports = {
   tagline: "Web ブラウザからハードウェアを制御するプロトタイピング環境です",
   url: "https://chirimen.org",
   baseUrl: "/",
-  onBrokenLinks: "throw",
+  onBrokenLinks: "error", // デフォルトの "throw" にするとリンク切れでビルド停止
   favicon: "img/favicon.ico",
   organizationName: "chirimen-oh", // Usually your GitHub org/user name.
   projectName: "chirimen.org-docusaurus", // Usually your repo name.
@@ -36,12 +36,12 @@ module.exports = {
           title: "Docs",
           items: [
             {
-              label: "Style Guide",
+              label: "ドキュメント",
               to: "docs/",
             },
             {
-              label: "Second Doc",
-              to: "docs/doc2/",
+              label: "チュートリアル",
+              to: "docs/tutorial/",
             },
           ],
         },
