@@ -33,10 +33,10 @@ module.exports = {
       style: "dark",
       links: [
         {
-          title: "Docs",
+          title: "ドキュメント",
           items: [
             {
-              label: "ドキュメント",
+              label: "CHIRIMEN について",
               to: "docs/",
             },
             {
@@ -46,24 +46,25 @@ module.exports = {
           ],
         },
         {
-          title: "Community",
+          title: "コミュニティ",
           items: [
             {
-              label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
-            },
-            {
-              label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              label: "Slack",
+              href:
+                "https://docs.google.com/forms/d/1GzkGfCcsRn4A6-uHPsLu2LszkqKcNJ3sFI4XRishHsE/viewform",
             },
             {
               label: "Twitter",
-              href: "https://twitter.com/docusaurus",
+              href: "https://twitter.com/chirimen_oh",
+            },
+            {
+              label: "Facebook",
+              href: "https://www.facebook.com/groups/chirimen",
             },
           ],
         },
         {
-          title: "More",
+          title: "その他",
           items: [
             {
               label: "Blog",
@@ -76,7 +77,7 @@ module.exports = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} CHIRIMEN Open Hardware Community`,
     },
   },
   presets: [
